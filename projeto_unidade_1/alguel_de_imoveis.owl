@@ -44,11 +44,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasBalcony -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasBalcony">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasCity -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasCity">
         <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isCityOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasGarden -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasGarden">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isHouse"/>
     </owl:ObjectProperty>
     
 
@@ -82,6 +98,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isApartment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isApartment">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isCityOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isCityOf">
@@ -90,17 +114,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isFlat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isFlat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isApartment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isHouse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isHouse">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile"/>
+    
+
+
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobileOf -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobileOf">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#hasImmobile"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isLocatedto -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isLocatedto"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isLocatedto">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isImmobile"/>
+    </owl:ObjectProperty>
     
 
 
@@ -108,6 +157,14 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isNeighbourhoodOf">
         <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isNormal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isNormal">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#isApartment"/>
     </owl:ObjectProperty>
     
 
@@ -180,7 +237,7 @@
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Flat -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Flat">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tipo"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento"/>
     </owl:Class>
     
 
@@ -188,6 +245,14 @@
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jardim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jardim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa"/>
+    </owl:Class>
     
 
 
@@ -200,6 +265,14 @@
     <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento"/>
+    </owl:Class>
     
 
 
