@@ -1,0 +1,1071 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#"
+     xml:base="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#localizadoEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#localizadoEm">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temImovel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temBairro -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temBairro"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temCaracteristica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temCaracteristica">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éCaracteristicaDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temCidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temCidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temImovel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temImovel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temInquilino -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temInquilino"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temProprietario -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temProprietario"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temPropósito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temPropósito">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éPropósito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éBairroDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éBairroDe">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temBairro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éCaracteristicaDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éCaracteristicaDe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éCidadeDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éCidadeDe">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temCidade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éInquilino -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éInquilino">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temInquilino"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éProprietario -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éProprietario">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temProprietario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éPropósito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#éPropósito"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tipo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Característica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Característica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tipo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Propósito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Empresarial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Empresarial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Propósito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Estado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Estado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Flat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Flat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tipo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobiliado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobiliado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobília"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobília -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobília">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Característica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobília"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaFísica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaFísica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaJurídica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaJurídica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Jurídica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Jurídica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Propósito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Propósito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Característica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Propósito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tipo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tipo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Alto_José_Leal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Alto_José_Leal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Alto_da_Liberdade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Alto_da_Liberdade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Antônio_Dantas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Antônio_Dantas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaFísica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Boa_Viagem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Boa_Viagem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bonança -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bonança">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Brasil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Brasil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bruno_Souza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bruno_Souza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bultrins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bultrins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cajueiro_Seco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cajueiro_Seco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Camaragibe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Camaragibe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tabatinga"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Timbi"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Vera_Cruz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Candeias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Candeias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Carmo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Carmo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa_Forte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa_Forte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Dois_Irmãos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Dois_Irmãos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Normal"/>
+        <temPropósito rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Empresarial"/>
+        <temProprietario rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#João_Pedro"/>
+        <temInquilino rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#MidiaVox"/>
+        <temCaracteristica rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado"/>
+        <localizadoEm rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paissandu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Edf_Janga_Prince_-_Ap1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Edf_Janga_Prince_-_Ap1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Apartamento"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Flat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+        <localizadoEm rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Janga"/>
+        <temProprietario rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mateus_Araújo"/>
+        <temCaracteristica rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobiliado"/>
+        <temInquilino rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Patrícia_Araújo"/>
+        <temPropósito rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Empresarial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Empresarial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Empresarial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Espinheiro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Espinheiro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GeovanaLira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GeovanaLira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Geovana_Lira"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Geovana_Lira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Geovana_Lira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaFísica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GrupoJCPM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GrupoJCPM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Jurídica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#HiperBompreço_AvCaxangá -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#HiperBompreço_AvCaxangá">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja"/>
+        <temPropósito rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial"/>
+        <temProprietario rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GrupoJCPM"/>
+        <localizadoEm rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Iputinga"/>
+        <temCaracteristica rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado"/>
+        <temInquilino rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#WalMart"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Igor_Silva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Igor_Silva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaFísica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Iputinga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Iputinga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jaboatão_dos_Guararapes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jaboatão_dos_Guararapes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cajueiro_Seco"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Candeias"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Piedade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Prazeres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Janga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Janga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jardim_Ipiranga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jardim_Ipiranga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#João_Pedro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#João_Pedro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Larissa_Manoela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Larissa_Manoela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja23-ShoppingRiomar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja23-ShoppingRiomar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja"/>
+        <temPropósito rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial"/>
+        <temInquilino rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Geovana_Lira"/>
+        <temProprietario rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GrupoJCPM"/>
+        <temCaracteristica rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado"/>
+        <localizadoEm rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mateus_Araújo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mateus_Araújo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locador"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pessoa_Física"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Matriz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Matriz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#McDonalds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#McDonalds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaJurídica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#McDonalds_DomingosFerreira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#McDonalds_DomingosFerreira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Loja"/>
+        <localizadoEm rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Boa_Viagem"/>
+        <temProprietario rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bruno_Souza"/>
+        <temPropósito rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Comercial"/>
+        <temInquilino rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#McDonalds"/>
+        <temCaracteristica rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#MidiaVox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#MidiaVox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaJurídica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobiliado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobiliado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Característica"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Mobiliado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Moreno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Moreno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Alto_da_Liberdade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bonança"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Característica"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Olinda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Olinda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bultrins"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Carmo"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Peixinhos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paissandu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paissandu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Patrícia_Araújo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Patrícia_Araújo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaFísica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pau_Amarelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pau_Amarelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paulista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paulista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Janga"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pau_Amarelo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Peixinhos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Peixinhos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pernambuco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pernambuco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Estado"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Camaragibe"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jaboatão_dos_Guararapes"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Moreno"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Olinda"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paulista"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Recife"/>
+        <temCidade rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Vitória_de_Santo_Antão"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Piedade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Piedade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Prazeres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Prazeres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Recife -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Recife">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Boa_Viagem"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa_Forte"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Dois_Irmãos"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Espinheiro"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Iputinga"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Paissandu"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Pina"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Várzea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#RuaAfonsoOlindense-n456 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#RuaAfonsoOlindense-n456">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Casa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+        <temProprietario rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#GeovanaLira"/>
+        <temInquilino rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Igor_Silva"/>
+        <temCaracteristica rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Não_Mobiliado"/>
+        <temPropósito rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Residencial"/>
+        <localizadoEm rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Várzea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tabatinga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Tabatinga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Timbi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Timbi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Vera_Cruz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Vera_Cruz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Vitória_de_Santo_Antão -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Vitória_de_Santo_Antão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Alto_José_Leal"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Jardim_Ipiranga"/>
+        <temBairro rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Matriz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Várzea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Várzea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#WalMart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#WalMart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Locatário"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#PessoaJurídica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl#pl1">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#pl2">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#pl3">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#localizadoEm"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pl1"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#pl3"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temBairro"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#pl2"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#pl3"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#localizadoEm"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#pl1"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#pl2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                    </rdf:Description>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#pl3"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Bairro"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#pl2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pl1"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Imóvel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pl1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Cidade"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#pl2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#Estado"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#pl3"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#localizadoEm"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#pl1"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#pl2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#temCidade"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#pl2"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#pl3"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#localizadoEm"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#pl1"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#pl3"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
