@@ -1,0 +1,1995 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles">
+    <Prefix name="" IRI="http://www.semanticweb.org/si-trab-cso-lnm-mgm4/ontologies/2017/9/immobiles#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Declaration>
+        <Class IRI="#Apartamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bairro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Característica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empresarial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imóvel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locatário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobiliado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobília"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Não_Mobiliado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PessoaFísica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PessoaJurídica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pessoa_Física"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pessoa_Jurídica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propósito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#localizadoEm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temBairro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temCidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temImovel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temInquilino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temProprietario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPropósito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éBairroDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éCaracteristicaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éCidadeDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éInquilino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éProprietario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éPropósito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alexandre_Moreno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alto_José_Leal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alto_da_Liberdade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antônio_Dantas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arrecifes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avançar_Negócios_Imobiliários"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bairro_Recife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barraca_da_coxinha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barraca_da_coxinha_Antigo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boa_Viagem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boa_vista_Churrascaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bonança"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bruno_Souza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bultrins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CTI_Imobiliária"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cajueiro_Seco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camaragibe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Candeias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carlos_Eduardo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carmo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Amarela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Caiada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Forte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Churrascaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comercial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consultório_Oftamológico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consultório_Oftamológico_Boa_Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cordeiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daniel_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Henrique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dentista_Popular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dentista_Popular_Boa_Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dois_Irmãos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Douglas_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edf._Aurora_da_Jaqueira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emp_Polidore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Empresarial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Espinheiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ewerton_Henrique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Filipe_da_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GeovanaLira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geovana_Lira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giraffas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giraffas_Boa_Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Graças"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrupoJCPM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Igor_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Imobiliária_Habitat_Recife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iputinga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Janga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jardim_Ipiranga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#João_Paulo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#João_Pedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Larissa_Manoela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Le_Bianka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Le_Bianka_Antigo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucas_Alexandre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucas_Santos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Madalena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maria_Luiza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mateus_Araújo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matriz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McDonalds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MidiaVox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moradasol_Imobiliária"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moreno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Newville_Imóveis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olinda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paissandu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panificadora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panificadora_Boa_Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patrícia_Araújo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pau_Amarelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paulista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pedro_Barros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peixinhos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pernambuco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piedade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prazeres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rafael_Mota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Recife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reserva_Polidoro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Residencial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosarinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_Desembargador_João_Paes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rua_Rio_Formoso_561"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tabatinga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thiago_Henrique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timbi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vera_Cruz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Via_Capibaribe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Victor_Vasconcelos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vitória_de_Santo_Antão"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Várzea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WalMart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Âncora_Imobiliária"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge_Antigo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Apartamento"/>
+        <Class IRI="#Tipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bairro"/>
+        <Class IRI="#Cidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Característica"/>
+        <Class IRI="#Imóvel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casa"/>
+        <Class IRI="#Tipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidade"/>
+        <Class IRI="#Estado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comercial"/>
+        <Class IRI="#Propósito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empresarial"/>
+        <Class IRI="#Propósito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flat"/>
+        <Class IRI="#Apartamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja"/>
+        <Class IRI="#Tipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobiliado"/>
+        <Class IRI="#Mobília"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobília"/>
+        <Class IRI="#Característica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <Class IRI="#Apartamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Não_Mobiliado"/>
+        <Class IRI="#Mobília"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PessoaFísica"/>
+        <Class IRI="#Locatário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PessoaJurídica"/>
+        <Class IRI="#Locatário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pessoa_Física"/>
+        <Class IRI="#Locador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <Class IRI="#Locador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propósito"/>
+        <Class IRI="#Característica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residencial"/>
+        <Class IRI="#Propósito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo"/>
+        <Class IRI="#Imóvel"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Alexandre_Moreno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Alto_José_Leal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Alto_da_Liberdade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#Antônio_Dantas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Antônio_Dantas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Arrecifes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Avançar_Negócios_Imobiliários"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Bairro_Recife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha_Antigo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Boa_Viagem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Boa_vista_Churrascaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Bonança"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locador"/>
+        <NamedIndividual IRI="#Bruno_Souza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Bruno_Souza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Bultrins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#CTI_Imobiliária"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Cajueiro_Seco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Camaragibe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Candeias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Carlos_Eduardo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Carmo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Casa_Amarela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Casa_Caiada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Casa_Forte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Churrascaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comercial"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico_Boa_Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Cordeiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Daniel_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#David_Henrique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Dentista_Popular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Dentista_Popular_Boa_Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Dois_Irmãos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Douglas_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Edf._Aurora_da_Jaqueira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imóvel"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flat"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imóvel"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Emp_Polidore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empresarial"/>
+        <NamedIndividual IRI="#Empresarial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Espinheiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Ewerton_Henrique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Filipe_da_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locador"/>
+        <NamedIndividual IRI="#GeovanaLira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#GeovanaLira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#Geovana_Lira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Geovana_Lira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Giraffas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Giraffas_Boa_Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Graças"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locador"/>
+        <NamedIndividual IRI="#GrupoJCPM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#GrupoJCPM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imóvel"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#Igor_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Igor_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Imobiliária_Habitat_Recife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Iputinga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Janga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Jardim_Ipiranga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#João_Paulo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locador"/>
+        <NamedIndividual IRI="#João_Pedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#João_Pedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locador"/>
+        <NamedIndividual IRI="#Larissa_Manoela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Larissa_Manoela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Le_Bianka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Le_Bianka_Antigo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imóvel"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Lucas_Alexandre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Lucas_Santos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Madalena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Maria_Luiza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locador"/>
+        <NamedIndividual IRI="#Mateus_Araújo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Mateus_Araújo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Matriz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#McDonalds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#McDonalds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imóvel"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#MidiaVox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#MidiaVox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Característica"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobiliado"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Moradasol_Imobiliária"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Moreno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Newville_Imóveis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Característica"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Não_Mobiliado"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Olinda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Paissandu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Panificadora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Panificadora_Boa_Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#Patrícia_Araújo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Patrícia_Araújo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Pau_Amarelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Paulista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Pedro_Barros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Peixinhos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estado"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Piedade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Pina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Prazeres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Rafael_Mota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Recife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flat"/>
+        <NamedIndividual IRI="#Reserva_Polidoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Residencial"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Rosarinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imóvel"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flat"/>
+        <NamedIndividual IRI="#Rua_Desembargador_João_Paes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Rua_Rio_Formoso_561"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Tabatinga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Física"/>
+        <NamedIndividual IRI="#Thiago_Henrique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Timbi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Vera_Cruz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flat"/>
+        <NamedIndividual IRI="#Via_Capibaribe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaFísica"/>
+        <NamedIndividual IRI="#Victor_Vasconcelos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cidade"/>
+        <NamedIndividual IRI="#Vitória_de_Santo_Antão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bairro"/>
+        <NamedIndividual IRI="#Várzea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Locatário"/>
+        <NamedIndividual IRI="#WalMart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#WalMart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pessoa_Jurídica"/>
+        <NamedIndividual IRI="#Âncora_Imobiliária"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PessoaJurídica"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loja"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge_Antigo"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#GeovanaLira"/>
+        <NamedIndividual IRI="#Geovana_Lira"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+        <NamedIndividual IRI="#Cordeiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+        <NamedIndividual IRI="#Filipe_da_Silva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+        <NamedIndividual IRI="#Imobiliária_Habitat_Recife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Avenida_General_San_Martin"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha_Antigo"/>
+        <NamedIndividual IRI="#Bairro_Recife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha_Antigo"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha_Antigo"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Barraca_da_coxinha_Antigo"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Boa_vista_Churrascaria"/>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Boa_vista_Churrascaria"/>
+        <NamedIndividual IRI="#Churrascaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Boa_vista_Churrascaria"/>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Boa_vista_Churrascaria"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Camaragibe"/>
+        <NamedIndividual IRI="#Timbi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Camaragibe"/>
+        <NamedIndividual IRI="#Tabatinga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Camaragibe"/>
+        <NamedIndividual IRI="#Vera_Cruz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico_Boa_Vista"/>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico_Boa_Vista"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico_Boa_Vista"/>
+        <NamedIndividual IRI="#Imobiliária_Habitat_Recife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Consultório_Oftamológico_Boa_Vista"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Dentista_Popular_Boa_Vista"/>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Dentista_Popular_Boa_Vista"/>
+        <NamedIndividual IRI="#Dentista_Popular"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Dentista_Popular_Boa_Vista"/>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Dentista_Popular_Boa_Vista"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+        <NamedIndividual IRI="#Iputinga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+        <NamedIndividual IRI="#Igor_Silva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+        <NamedIndividual IRI="#Douglas_Silva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Doutor_Osvaldo_Salsa"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Edf._Aurora_da_Jaqueira"/>
+        <NamedIndividual IRI="#Graças"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Edf._Aurora_da_Jaqueira"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+        <NamedIndividual IRI="#Paissandu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+        <NamedIndividual IRI="#MidiaVox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+        <NamedIndividual IRI="#João_Pedro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#EdfNegocialCenter-Ilha_do_Leite-Primeiro_Andar"/>
+        <NamedIndividual IRI="#Empresarial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+        <NamedIndividual IRI="#Janga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+        <NamedIndividual IRI="#Patrícia_Araújo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+        <NamedIndividual IRI="#Mateus_Araújo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Edf_Janga_Prince_-_Ap1001"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Giraffas_Boa_Vista"/>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Giraffas_Boa_Vista"/>
+        <NamedIndividual IRI="#Giraffas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Giraffas_Boa_Vista"/>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Giraffas_Boa_Vista"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+        <NamedIndividual IRI="#Iputinga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+        <NamedIndividual IRI="#WalMart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+        <NamedIndividual IRI="#GrupoJCPM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#HiperBompreço_AvCaxangá"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+        <NamedIndividual IRI="#Prazeres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+        <NamedIndividual IRI="#Candeias"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+        <NamedIndividual IRI="#Piedade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+        <NamedIndividual IRI="#Cajueiro_Seco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Le_Bianka_Antigo"/>
+        <NamedIndividual IRI="#Bairro_Recife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Le_Bianka_Antigo"/>
+        <NamedIndividual IRI="#Le_Bianka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Le_Bianka_Antigo"/>
+        <NamedIndividual IRI="#Le_Bianka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Le_Bianka_Antigo"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+        <NamedIndividual IRI="#Pina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+        <NamedIndividual IRI="#Geovana_Lira"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+        <NamedIndividual IRI="#GrupoJCPM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Loja23-ShoppingRiomar"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+        <NamedIndividual IRI="#Boa_Viagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+        <NamedIndividual IRI="#McDonalds"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+        <NamedIndividual IRI="#Bruno_Souza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#McDonalds_DomingosFerreira"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Moreno"/>
+        <NamedIndividual IRI="#Alto_da_Liberdade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Moreno"/>
+        <NamedIndividual IRI="#Bonança"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Olinda"/>
+        <NamedIndividual IRI="#Carmo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Olinda"/>
+        <NamedIndividual IRI="#Bultrins"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Olinda"/>
+        <NamedIndividual IRI="#Peixinhos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Panificadora_Boa_Vista"/>
+        <NamedIndividual IRI="#Boa_Vista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Panificadora_Boa_Vista"/>
+        <NamedIndividual IRI="#Panificadora"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Panificadora_Boa_Vista"/>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Panificadora_Boa_Vista"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Paulista"/>
+        <NamedIndividual IRI="#Janga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Paulista"/>
+        <NamedIndividual IRI="#Pau_Amarelo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Moreno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Camaragibe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Paulista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Jaboatão_dos_Guararapes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Olinda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Vitória_de_Santo_Antão"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCidade"/>
+        <NamedIndividual IRI="#Pernambuco"/>
+        <NamedIndividual IRI="#Recife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Pina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Paissandu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Casa_Forte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Dois_Irmãos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Várzea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Iputinga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Espinheiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Recife"/>
+        <NamedIndividual IRI="#Boa_Viagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Reserva_Polidoro"/>
+        <NamedIndividual IRI="#Várzea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Reserva_Polidoro"/>
+        <NamedIndividual IRI="#Daniel_Silva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Reserva_Polidoro"/>
+        <NamedIndividual IRI="#Emp_Polidore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+        <NamedIndividual IRI="#Várzea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+        <NamedIndividual IRI="#Igor_Silva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+        <NamedIndividual IRI="#GeovanaLira"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#RuaAfonsoOlindense-n456"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_Desembargador_João_Paes"/>
+        <NamedIndividual IRI="#Boa_Viagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_Desembargador_João_Paes"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_Desembargador_João_Paes"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+        <NamedIndividual IRI="#Cordeiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+        <NamedIndividual IRI="#Lucas_Alexandre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+        <NamedIndividual IRI="#CTI_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_Dom_José_Pereira_Alves"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+        <NamedIndividual IRI="#Casa_Amarela"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+        <NamedIndividual IRI="#Rafael_Mota"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+        <NamedIndividual IRI="#Thiago_Henrique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_Doutor_Genaro_Guimarães"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+        <NamedIndividual IRI="#Várzea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+        <NamedIndividual IRI="#Victor_Vasconcelos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+        <NamedIndividual IRI="#Maria_Luiza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_Engenheiro_Florisval_Silvestre_Neto"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+        <NamedIndividual IRI="#Rosarinho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+        <NamedIndividual IRI="#Carlos_Eduardo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+        <NamedIndividual IRI="#Alexandre_Moreno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_José_Maria"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+        <NamedIndividual IRI="#Cordeiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+        <NamedIndividual IRI="#Ewerton_Henrique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+        <NamedIndividual IRI="#CTI_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_Professor_Joaquim_Xavier_de_Brito"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rua_Rio_Formoso_561"/>
+        <NamedIndividual IRI="#Iputinga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Rua_Rio_Formoso_561"/>
+        <NamedIndividual IRI="#Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rua_Rio_Formoso_561"/>
+        <NamedIndividual IRI="#João_Paulo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rua_Rio_Formoso_561"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+        <NamedIndividual IRI="#Casa_Caiada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temCaracteristica"/>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+        <NamedIndividual IRI="#Não_Mobiliado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+        <NamedIndividual IRI="#Lucas_Santos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+        <NamedIndividual IRI="#Vip_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Venâncio_Barbosa"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Via_Capibaribe"/>
+        <NamedIndividual IRI="#Madalena"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Via_Capibaribe"/>
+        <NamedIndividual IRI="#Lucas_Santos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Via_Capibaribe"/>
+        <NamedIndividual IRI="#Moradasol_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Via_Capibaribe"/>
+        <NamedIndividual IRI="#Residencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Vitória_de_Santo_Antão"/>
+        <NamedIndividual IRI="#Alto_José_Leal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Vitória_de_Santo_Antão"/>
+        <NamedIndividual IRI="#Matriz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temBairro"/>
+        <NamedIndividual IRI="#Vitória_de_Santo_Antão"/>
+        <NamedIndividual IRI="#Jardim_Ipiranga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge_Antigo"/>
+        <NamedIndividual IRI="#Bairro_Recife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temInquilino"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge_Antigo"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temProprietario"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge_Antigo"/>
+        <NamedIndividual IRI="#CTI_Imobiliária"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temPropósito"/>
+        <NamedIndividual IRI="#Rock_&amp;_Ribs_Lounge_Antigo"/>
+        <NamedIndividual IRI="#Comercial"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#localizadoEm"/>
+        <ObjectProperty IRI="#temImovel"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éBairroDe"/>
+        <ObjectProperty IRI="#temBairro"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éCaracteristicaDe"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temCidade"/>
+        <ObjectProperty IRI="#éCidadeDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éInquilino"/>
+        <ObjectProperty IRI="#temInquilino"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temProprietario"/>
+        <ObjectProperty IRI="#éProprietario"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temPropósito"/>
+        <ObjectProperty IRI="#éPropósito"/>
+    </InverseObjectProperties>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#temBairro"/>
+                <Variable IRI="urn:swrl#pl3"/>
+                <Variable IRI="urn:swrl#pl2"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Bairro"/>
+                <Variable IRI="urn:swrl#pl2"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Imóvel"/>
+                <Variable IRI="urn:swrl#pl1"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#localizadoEm"/>
+                <Variable IRI="urn:swrl#pl1"/>
+                <Variable IRI="urn:swrl#pl2"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Cidade"/>
+                <Variable IRI="urn:swrl#pl3"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#localizadoEm"/>
+                <Variable IRI="urn:swrl#pl1"/>
+                <Variable IRI="urn:swrl#pl3"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Cidade"/>
+                <Variable IRI="urn:swrl#pl2"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Imóvel"/>
+                <Variable IRI="urn:swrl#pl1"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Estado"/>
+                <Variable IRI="urn:swrl#pl3"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#temCidade"/>
+                <Variable IRI="urn:swrl#pl3"/>
+                <Variable IRI="urn:swrl#pl2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#localizadoEm"/>
+                <Variable IRI="urn:swrl#pl1"/>
+                <Variable IRI="urn:swrl#pl2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#localizadoEm"/>
+                <Variable IRI="urn:swrl#pl1"/>
+                <Variable IRI="urn:swrl#pl3"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
